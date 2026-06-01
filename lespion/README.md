@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy  
 **Category:** OSINT / Threat Intelligence  
-**Date Completed:** May 2026
+**Date Completed:** May 30, 2026
 
 ## Scenario Summary
 Investigate an insider threat by analyzing GitHub repositories for exposed credentials, using OSINT tools to correlate online accounts, and performing image analysis to identify locations.

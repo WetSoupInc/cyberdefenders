@@ -9,7 +9,7 @@ Investigate an insider threat by analyzing GitHub repositories for exposed crede
 
 ## Tools Used
 - Browser / GitHub / Cyberchef / Kali Linux / Sherlock
-- 
+ 
 ## Investigation Process
 
 ### Q1 [What API key did the insider add to his GitHub repositories?]

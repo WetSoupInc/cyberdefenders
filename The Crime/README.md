@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy  
 **Category:** Endpoint Forensics  
-**Date Completed:** June 1, 2026
+**Date Completed:** N/A
 
 ## Scenario Summary
 Utilize ALEAPP to analyze Android device artifacts, reconstructing a victim's financial details, movements, and communication patterns.

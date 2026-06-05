@@ -7,6 +7,10 @@
 ## Scenario Summary
 Investigate an insider threat by analyzing GitHub repositories for exposed credentials, using OSINT tools to correlate online accounts, and performing image analysis to identify locations.
 
+**Why this matters:** Exposed API keys in public repos are a real attack 
+vector. Threat actors actively scan GitHub for leaked credentials using 
+tools like TruffleHog and GitLeaks.
+
 ## Tools Used
 - Browser / GitHub / Cyberchef / Kali Linux / Sherlock
 
@@ -21,10 +25,6 @@ Incident responders and digital forensic investigators are currently on the scen
 **What I did:** Navigated to the GitHub profile linked in the challenge, 
 browsed repositories starting with Project-Build---Custom-login-page, 
 examined files within the repo and identified an exposed API key.
-
-**Why this matters:** Exposed API keys in public repos are a real attack 
-vector. Threat actors actively scan GitHub for leaked credentials using 
-tools like TruffleHog and GitLeaks.
 
 ### Q2 — [What plaintext password did the insider add to his GitHub repositories?]
 **What I did:** Scrolled through the same file and saw the password was

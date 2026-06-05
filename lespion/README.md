@@ -9,6 +9,11 @@ Investigate an insider threat by analyzing GitHub repositories for exposed crede
 
 ## Tools Used
 - Browser / GitHub / Cyberchef / Kali Linux / Sherlock
+
+## Scenario 
+You have been tasked by a client whose network was compromised and brought offline to investigate the incident and determine the attacker's identity.
+
+Incident responders and digital forensic investigators are currently on the scene and have conducted a preliminary investigation. Their findings show that the attack originated from a single user account, probably, an insider. Investigate the incident, find the insider, and uncover the attack actions.
  
 ## Investigation Process
 

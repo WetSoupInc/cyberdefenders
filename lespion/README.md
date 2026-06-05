@@ -7,11 +7,6 @@
 ## Scenario Summary
 Investigate an insider threat by analyzing GitHub repositories for exposed credentials, using OSINT tools to correlate online accounts, and performing image analysis to identify locations.
 
-## Why this matters 
-Exposed API keys in public repos are a real attack 
-vector. Threat actors actively scan GitHub for leaked credentials using 
-tools like TruffleHog and GitLeaks.
-
 ## Tools Used
 - Browser / GitHub / Cyberchef / Kali Linux / Sherlock
 
@@ -19,6 +14,11 @@ tools like TruffleHog and GitLeaks.
 You have been tasked by a client whose network was compromised and brought offline to investigate the incident and determine the attacker's identity.
 
 Incident responders and digital forensic investigators are currently on the scene and have conducted a preliminary investigation. Their findings show that the attack originated from a single user account, probably, an insider. Investigate the incident, find the insider, and uncover the attack actions.
+
+## Why this matters 
+Exposed API keys in public repos are a real attack 
+vector. Threat actors actively scan GitHub for leaked credentials using 
+tools like TruffleHog and GitLeaks.
  
 ## Investigation Process
 

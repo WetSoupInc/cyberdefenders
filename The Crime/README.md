@@ -9,6 +9,12 @@ Utilize ALEAPP to analyze Android device artifacts, reconstructing a victim's fi
 
 ## Tools Used
 - Browser / GitHub / ALEAPP / DB Browser for SQLite
+
+## Scenario
+We're currently in the midst of a murder investigation, and we've obtained the victim's phone as a key piece of evidence. After conducting interviews with witnesses and those in the victim's inner circle, your objective is to meticulously analyze the information we've gathered and diligently trace the evidence to piece together the sequence of events leading up to the incident.
+
+## Why this matters 
+This challenge matters because mobile devices often contain the most complete record of a victim’s daily life, communications, movements, financial activity, and app usage. Being able to extract and interpret these artifacts with tools like ALEAPP is a core digital forensics skill, allowing analysts to reconstruct timelines, identify motives, and uncover critical evidence in real investigations.
   
 ## Investigation Process
 

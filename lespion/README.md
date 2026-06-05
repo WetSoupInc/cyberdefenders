@@ -22,7 +22,7 @@ tools like TruffleHog and GitLeaks.
  
 ## Investigation Process
 
-### Q1 [What API key did the insider add to his GitHub repositories?]
+### Q1 - [What API key did the insider add to his GitHub repositories?]
 **What I did:** Navigated to the GitHub profile linked in the challenge, 
 browsed repositories starting with Project-Build---Custom-login-page, 
 examined files within the repo and identified an exposed API key.

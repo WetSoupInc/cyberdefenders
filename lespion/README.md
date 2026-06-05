@@ -7,7 +7,8 @@
 ## Scenario Summary
 Investigate an insider threat by analyzing GitHub repositories for exposed credentials, using OSINT tools to correlate online accounts, and performing image analysis to identify locations.
 
-## **Why this matters:** Exposed API keys in public repos are a real attack 
+## Why this matters 
+Exposed API keys in public repos are a real attack 
 vector. Threat actors actively scan GitHub for leaked credentials using 
 tools like TruffleHog and GitLeaks.
 

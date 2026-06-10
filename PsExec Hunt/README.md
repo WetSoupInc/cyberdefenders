@@ -27,15 +27,15 @@ I first wanted to check out IP addresses that had the most traffic so I navigate
 
 ### Q2 [To fully understand the extent of the breach, can you determine the machine's hostname to which the attacker first pivoted?]
 **What I did:** 
-
+To find this I took the Source and destination IPv4 I had gotten from Q1 and I applied it to the filter. After this I added "&& smb" to the filter to find the source of where the intital contact of the attack. It was likely SMB since we are dealing with PsExec so all I did after that was follow the TCP stream and look through the packet and I found my answer.
  
 ### Q3 [Knowing the username of the account the attacker used for authentication will give us insights into the extent of the breach. What is the username utilized by the attacker for authentication?]
 **What I did:** 
-
+Following of Q2 I scrolled through the results of the filters I added and looked at the SMB2 packets that appeared after following the TCP stream and it listed "NTLMSSP_AUTH, User: \******." 
  
 ### Q4 [After figuring out how the attacker moved within our network, we need to know what they did on the target machine. What's the name of the service executable the attacker set up on the target?]
 **What I did:** 
-
+The same filter as the previous two questions helped me find the answer as the executable was listed with the SMB2 packets under the filter. This was easy to spot because the answer was going to end in ".exe". 
 
 ### Q5 [We need to know how the attacker installed the service on the compromised machine to understand the attacker's lateral movement tactics. This can help identify other affected systems. Which network share was used by PsExec to install the service on the target machine?]
 **What I did:** 

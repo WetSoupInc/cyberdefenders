@@ -39,11 +39,12 @@ The same filter as the previous two questions helped me find the answer as the e
 
 ### Q5 [We need to know how the attacker installed the service on the compromised machine to understand the attacker's lateral movement tactics. This can help identify other affected systems. Which network share was used by PsExec to install the service on the target machine?]
 **What I did:** 
-
+The same filter was applied and for this question as well as the SMB2 packets shown tell a lot of information. I knew it was looking for a network so under the info section in the SMB2 packets I was looking for something that looked like an IP address followed by something else and that is where I found my answer.
 
 ### Q6 [We must identify the network share used to communicate between the two machines. Which network share did PsExec use for communication?]
 **What I did:** 
-
+I clicked on the SMB2 packet that had the network information that I had received from the previous question and I followed the TCP stream and looked "$" using the Find search bar at the bottom of the TCP stream since I knew it would be in the answer and within 2 "find next" I was able to find it.
 
 ### Q7 [Now that we have a clearer picture of the attacker's activities on the compromised machine, it's important to identify any further lateral movement. What is the hostname of the second machine the attacker targeted to pivot within our network?]
 **What I did:** 
+For this question all I did was use the "smb" filter to find the answer since NTLMSSP_CHALLENGE were reccomended as a hint to find the answer but they are wrapped inside smb. I couldnt find the packets the way it was reccomended so I thought more out of the box and it worked out. 
